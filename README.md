@@ -17,11 +17,18 @@ Este projeto foi planejado para demonstrar habilidades em **Python**, análise d
 
 ## Principais Funcionalidades
 
-* **Coleta automática de dados** via GitHub REST API.
-* **Cálculo de métricas técnicas** (diversidade de linguagens, consistência de commits, qualidade dos projetos).
-* **Geração de relatórios estruturados** e roadmap de evolução.
-* **Interface completa em Streamlit** para visualização dos resultados.
-* **Arquitetura modular** com classes dedicadas para coleta, análise e geração de insights.
+* ** Coleta de Dados:** Extração automática de repositórios, linguagens e frequência de commits via GitHub API.
+* ** Análise Técnica (Heurística):** Algoritmo próprio (`analyzer.py`) que calcula:
+    * Diversidade e profundidade de linguagens.
+    * Consistência de atividade (commits semanais).
+    * Qualidade dos projetos (README, testes, tamanho).
+* ** Inteligência Artificial:** Integração com o modelo `gemini-2.5-flash` para gerar:
+    * Análise de pontos fortes e fracos.
+    * Sugestões de carreira compatíveis com o perfil.
+    * **Roadmap completo de 90 dias** (30/60/90) focado no objetivo do usuário.
+* ** Interface Gráfica:** Dashboard interativo e moderno construído com **Streamlit**.
+
+---
 
 ## Tecnologias e Ferramentas
 
